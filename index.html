@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="biotech">
     <title>ばいおてっく</title>
+<!-- CSS -->
     <link rel="stylesheet" media="all" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="icon" href="アイコン用の画像">
     <script type="text/javascript" src="js/template.js"></script>
+<!-- Ajax Parts -->>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-
+<!-- Bxslider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <!-- OGP -->
     <meta property="og:title" content="ばいおてっく">
     <meta property="og:type" content="website">
@@ -20,13 +25,54 @@
     <meta property="og:site_name" content="サイトのタイトル">
     <meta property="og:image" content="サムネイル画像のURL">
     <meta name="twitter:card" content="summary_large_image">
-<!-- // OGP -->
 </head>
 
 <body>
-
     <main>
+        <div id="js-header-slider" class="p-header-slider" data-speed="8000">
         
+                <div class="p-header-slider__item p-header-slider__item--1 p-header-content" data-animation="1">
+            
+                <div class="p-header-content__inner">
+            
+                        <div class="p-header-content__title">
+                    <span>タンパク質集合体を化学的に機能化し、<br />
+            新しい生体材料の創出や生命現象の理解を目指す</span>
+                  </div>
+                  
+                  
+                  
+                </div>
+            
+                <div class="p-header-slider__item-img p-header-slider__item-img--type2"></div>
+              </div>
+                <div class="p-header-slider__item p-header-slider__item--2 p-header-content" data-animation="1">
+            
+                <div class="p-header-content__inner">
+            
+                        <div class="p-header-content__title">
+                    <span>生物無機化学と生体超分子化学を融合し、<br />
+            新しいタンパク質機能化法を開発</span>
+                  </div>
+
+                </div>
+
+                <div class="p-header-slider__item-img p-header-slider__item-img--type2"></div>
+              </div>
+                <div class="p-header-slider__item p-header-slider__item--3 p-header-content" data-animation="1">
+            
+                <div class="p-header-content__inner">
+            
+                        <div class="p-header-content__title">
+                    <span>タンパク質の階層的集合反応を制御し、<br />
+            新しい分子機械材料を創出</span>
+                  </div>
+                    
+                </div>
+            <div class="p-header-slider__item-img p-header-slider__item-img--type1"></div>
+          </div>
+          <a href="#js-cb" id="js-header-content__link" class="p-header-content__link" aria-hidden="true"></a>
+        </div>
     </main>
 
     <script>
@@ -37,7 +83,5 @@
         .then((response) => response.text())
         .then((data) => document.querySelector("main").insertAdjacentHTML('afterend', data));
     </script>
-
   </body>
-
 </html>
