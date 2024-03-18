@@ -135,10 +135,10 @@
     </main>
 
     <script>
-      fetch("header.html")
+      fetch("page_parts/header.html")
         .then((response) => response.text())
         .then((data) => document.querySelector("body").insertAdjacentHTML('afterbegin', data));
-      fetch("footer.html")
+      fetch("page_parts/footer.html")
         .then((response) => response.text())
         .then((data) => document.querySelector("main").insertAdjacentHTML('afterend', data));
     </script>
