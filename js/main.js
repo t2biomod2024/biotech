@@ -6,3 +6,12 @@ $(document).ready(function(){
         }
     });
 });
+
+$(document).ready(function(){
+    $.ajax({
+        url: "footer.html",
+        success: function(result){
+            $("#footer").html(result);
+        }
+    });
+});
