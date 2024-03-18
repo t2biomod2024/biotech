@@ -1,21 +1,8 @@
-function footer(rootDir){
+$(document).ready(function(){
     $.ajax({
-    url: rootDir + "header.html",
-    cache: false,
-    success: function(html){
-    html = html.replace(/\{\$root\}/g, rootDir);
-    document.write(html);
-    }
+        url: "header.html",
+        success: function(result){
+            $("#header").html(result);
+        }
     });
-    }
-
-function footer(rootDir){
-    $.ajax({
-    url: rootDir + "footer.html",
-    cache: false,
-    success: function(html){
-    html = html.replace(/\{\$root\}/g, rootDir);
-    document.write(html);
-    }
-    });
-    }
+});
