@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $.ajax({
-        url: "header.html",
+        url: "page_parts/header.html",
         success: function(result){
             $("#header").html(result);
         }
@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $.ajax({
-        url: "footer.html",
+        url: "page_parts/footer.html",
         success: function(result){
             $("#footer").html(result);
         }
