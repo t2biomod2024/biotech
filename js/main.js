@@ -1,17 +1,19 @@
-$(document).ready(function(){
+function header(){
     $.ajax({
-        url: "header.html",
-        success: function(result){
-            $("#header").html(result);
-        }
+    url: "header.html",
+    cache: false,
+    success: function(html){
+    document.write(html);
+    }
     });
-});
+    }
 
-$(document).ready(function(){
+function footer(){
     $.ajax({
-        url: "footer.html",
-        success: function(result){
-            $("#footer").html(result);
-        }
+    url: "footer.html",
+    cache: false,
+    success: function(html){
+    document.write(html);
+    }
     });
-});
+    }
