@@ -5,11 +5,14 @@
     <meta charset=" utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="biotech">
-    <title>ばいおてっく</title>
+    <title>ばいおてっくのHP</title>
     <!-- CSS -->
-    <link rel="stylesheet" media="all" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <link rel="icon" href="アイコン用の画像">
+    <!-- Icon -->>
+    <link rel="icon" href="pics/logo1.jpg">
     <!-- Ajax Parts -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <!-- Bxslider -->
@@ -20,7 +23,7 @@
     <meta property="og:description" content="ばいおてっくはこんなことをやっているよ">
     <meta property="og:url" content="https://t2biomod2024.github.io/biotech/">
     <meta property="og:site_name" content="ばいおてっくのHPだよ">
-    <meta property="og:image" content="サムネイル画像のURL">
+    <meta property="og:image" content="pics/logo2.jpg">
     <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -47,11 +50,6 @@
                 </li>
             </ul>
         </div>
-
-    <!-- Concept -->
-        <concept>
-            <h1>東工大の中の数少ない生物徒の遊び場</h1>
-        </concept>
 
     <!-- Information -->
         <article>
@@ -97,17 +95,7 @@
     </main>
 
     <!-- Commonlize -->
-    <script>
-        $(document).ready(function () {
-            $('.slide-items').bxSlider();
-        });
-        fetch("page_parts/header.html")
-            .then((response) => response.text())
-            .then((data) => document.querySelector("body").insertAdjacentHTML('afterbegin', data));
-        fetch("page_parts/footer.html")
-            .then((response) => response.text())
-            .then((data) => document.querySelector("main").insertAdjacentHTML('afterend', data));
-    </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
