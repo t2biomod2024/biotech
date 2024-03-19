@@ -1,9 +1,21 @@
 /* ヘッダー */
-.header_logo img {
-    width: 300px;
-    margin-left: 30px;
-    margin-top: 50px;
+/* パソコン用 */
+@media screen and (min-width: 768px) {
+    .header_logo img {
+      width: 300px;
+      margin-left: 30px;
+      margin-top: 50px;
+    }
   }
+  
+  /* スマートフォン用 */
+  @media screen and (max-width: 767px) {
+    .header_logo img {
+      width: 200px;
+      margin: 10px;
+    }
+  }
+  
   
 
 /* スライダー */
