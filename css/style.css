@@ -1,72 +1,18 @@
-/* ヘッダー */
-header {
+/* フォント */
+body {
+    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-  }
-  
-  .header_content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .header_left {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header_logo img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .header_text {
-    margin-left: 20px; /* ロゴとテキストの間隔 */
-  }
-  
-  .header_right ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  .header_right ul li {
-    display: inline;
-  }
-  
-  .header_right ul li a {
-    text-decoration: none;
+  h1, h2, h3 {
     color: #333;
-    padding: 10px;
   }
   
-  .header_right ul li:hover {
-    background-color: #ddd;
+  p {
+    color: #666;
   }
-
-/* スライダー */
-.slide-items_wrap {
-    width: 100%; 
-    overflow: hidden;
-}
-
-.slide-items {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 300%;
-    transition: transform 0.5s ease;
-}
-
-.slide-items__item {
-    float: left;
-    width: 33.33%;
-}
-
-.slide-items__item img {
-    width: 100%;
-    height: auto;
-}
 
 /* ローディング */
 .loading-overlay {
