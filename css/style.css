@@ -1,3 +1,11 @@
+/* ヘッダー */
+.header_logo img {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  
+
 /* スライダー */
 .slide-items_wrap {
     width: 100%; 
