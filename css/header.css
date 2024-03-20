@@ -29,6 +29,10 @@
   align-items: center;
 }
 
+.header_logo {
+  margin-right: 20px;
+}
+
 .header_logo img {
   width: 150px;
   height: auto;
