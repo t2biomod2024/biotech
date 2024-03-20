@@ -52,6 +52,20 @@ body {
   left: 0;
 }
 
+/* ニュース */
+.slider a{
+  display: block;
+  background:#fff;
+  padding:20px;
+}
+
+.slider span {
+  display:inline-block;
+  font-size:0.8rem;
+  margin-right:10px;
+  color:#777;
+}
+
 /* X 余白 */
 .twitter {
   margin: 20px;
