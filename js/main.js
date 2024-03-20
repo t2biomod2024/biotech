@@ -17,14 +17,6 @@ window.addEventListener('load', function () {
   document.querySelector('.loading-overlay').style.display = 'none';
 });
 
-//DropDownMenu
-$("ul.ddmenu li").hover(function(){
-  $(">ul:not(:animated)",this).slideDown("fast")
-},
-function(){
-  $(">ul",this).slideUp("fast")
-})
-
 //Fixed
 function FixedAnime() {
 	var elemTop = $('#area-3').offset().top;
