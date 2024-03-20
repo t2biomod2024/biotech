@@ -14,3 +14,14 @@ fetch("https://t2biomod2024.github.io/biotech/page_parts/footer.html")
 window.addEventListener('load', function () {
   document.querySelector('.loading-overlay').style.display = 'none';
 });
+
+//DropDownMenu
+$(function(){
+  $("ul.ddmenu li").mouseenter(function(){
+    $(this).siblings().find("ul").hide();
+    $(this).children().slideDown(150);
+  });
+  $('html').click(function() {
+    $('ul.ddmenu ul').slideUp(150);
+  });
+});
