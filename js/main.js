@@ -16,18 +16,25 @@ window.addEventListener('load', function () {
 });
 
 //DropDownMenu
-$(function(){
-  // ▼マウスが載ったらサブメニューを表示
-  $("ul.ddmenu li").mouseenter(function(){
-     $(this).siblings().find("ul").hide();  // 兄弟要素に含まれるサブメニューを全部消す。
-     $(this).children().slideDown(150);     // 自分のサブメニューを表示する。
+$(function() {
+  // メニュー項目にマウスが入ったときの処理
+  $("ul.ddmenu > li").mouseenter(function() {
+    // 他のサブメニューを非表示にする
+    $(this).siblings().find("ul").slideUp(150);
+    // 自身のサブメニューを表示する
+    $(this).children("ul").stop(true, true).slideDown(150);
   });
-  // ▼どこかがクリックされたらサブメニューを消す
-  $('html').click(function() {
-     $('ul.ddmenu ul').slideUp(150);
+
+  // どこかがクリックされたときの処理
+  $(document).click(function(event) {
+    // クリックされた要素がドロップダウンメニュー内の要素でなければ、すべてのサブメニューを非表示にする
+    if (!$(event.target).closest('.ddmenu').length) {
+      $('ul.ddmenu ul').slideUp(150);
+    }
   });
 });
 
+//Fixed
 //スクロールすると上部に固定させるための設定を関数でまとめる
 function FixedAnime() {
 	var headerH = $('#header').outerHeight(true);
