@@ -16,33 +16,17 @@ window.addEventListener('load', function () {
 });
 
 //DropDownMenu
-$(document).ready(function() {
-  // メニューの親要素がクリックされたときの処理
-  $('.ddmenu > li').click(function(e) {
-      // クリックされた要素の子要素のulを取得
-      var submenu = $(this).children('ul');
-
-      // クリックされた要素以外のすべてのサブメニューを非表示にする
-      $('.ddmenu > li > ul').not(submenu).slideUp();
-
-      // クリックされた要素のサブメニューが表示されていない場合は表示、表示されている場合は非表示にする
-      submenu.slideToggle();
-
-      // イベントの伝播を停止する（親要素や他の要素にイベントが伝わらないようにする）
-      e.stopPropagation();
-  });
-
-  // メニュー以外の領域がクリックされたときの処理
-  $(document).click(function() {
-      // すべてのサブメニューを非表示にする
-      $('.ddmenu > li > ul').slideUp();
-  });
-
-  // メニューがクリックされたときにイベントの伝播を停止しないようにする
-  $('.ddmenu > li > ul').click(function(e) {
-      e.stopPropagation();
-  });
-});
+   $(function(){
+      // ▼マウスが載ったらサブメニューを表示
+      $("ul.ddmenu li").mouseenter(function(){
+         $(this).siblings().find("ul").hide();  // 兄弟要素に含まれるサブメニューを全部消す。
+         $(this).children().slideDown(150);     // 自分のサブメニューを表示する。
+      });
+      // ▼どこかがクリックされたらサブメニューを消す
+      $('html').click(function() {
+         $('ul.ddmenu ul').slideUp(150);
+      });
+   });
 
 //Fixed
 //スクロールすると上部に固定させるための設定を関数でまとめる
