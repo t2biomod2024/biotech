@@ -24,9 +24,13 @@ p {
 
 /* bbn */
 bbn {
-  width: 100%;
-  height: auto;
+  display: block;
 }
+
+bbn img {
+  width: 100%;
+}
+
 
 /* ローディング */
 .loading-overlay {
