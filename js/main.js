@@ -45,6 +45,3 @@ $('.slider').bxSlider({
 	auto: 'true',
 	pager: false
 	});
-	
-	
-
