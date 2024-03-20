@@ -1,6 +1,38 @@
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo img {
+  width: 250px;
+  height: auto;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+}
+
+#social-links div {
+  display: flex;
+  align-items: center;
+}
+
+#social-links a {
+  margin: 0 20px;
+}
+
+#X-links a img {
+  width: 40px;
+  height: auto;
+}
+
+#YT-links a img {
+  width: 70px;
+  height: auto;
+}

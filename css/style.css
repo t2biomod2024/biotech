@@ -1,7 +1,7 @@
 /* フォント */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
   }
@@ -39,4 +39,9 @@ body {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* X 余白 */
+.twitter-container {
+  margin: 20px;
 }

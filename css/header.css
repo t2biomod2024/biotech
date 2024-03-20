@@ -1,5 +1,5 @@
 header {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
   }
   
   .header_content {
@@ -45,5 +45,5 @@ header {
   }
   
   .header_right ul li:hover {
-    background-color: #ddd;
+    background-color: #ffffff;
   }
