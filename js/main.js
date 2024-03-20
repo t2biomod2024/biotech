@@ -18,13 +18,11 @@ window.addEventListener('load', function () {
 });
 
 //DropDownMenu
-$(function(){
-  $("ul.ddmenu li").hover(function(){
-    $(">ul:not(:animated)",this).slideDown("fast")
-  },
-  function(){
-    $(">ul",this).slideUp("fast")
-  })
+$("ul.ddmenu li").hover(function(){
+  $(">ul:not(:animated)",this).slideDown("fast")
+},
+function(){
+  $(">ul",this).slideUp("fast")
 })
 
 //Fixed
