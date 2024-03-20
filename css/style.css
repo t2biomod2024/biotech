@@ -49,17 +49,6 @@ p {
   100% { transform: rotate(360deg); }
 }
 
-/* スライダー */
-.slider-menu-wrap {
-  position: relative;
-}
-
-.slide-items {
-  position: absolute;
-  top: 100%; 
-  left: 0;
-}
-
 /* ニュース */
 .slider a{
   display: block;
