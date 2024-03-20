@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #fff;
   margin: 0;
-  padding: 0;
+  padding: 40px;
 }
   
 h1, h2, h3 {
@@ -59,7 +59,7 @@ p {
   padding:20px;
 }
 
-.slider span {
+.slider span{
   display:inline-block;
   font-size:0.8rem;
   margin-right:10px;
