@@ -24,12 +24,15 @@
  }
   
 .header_left {
-  display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.header_right {
+  justify-content: flex-end;
 }
 
 .header_logo {
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .header_logo img {
