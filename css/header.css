@@ -4,6 +4,13 @@
   width: 100%;
 }
 
+#header.fixed{
+	position: fixed;
+  z-index: 999;
+  top:0;
+  left:0;
+}
+
 .header_content {
   display: flex;
   justify-content: space-between;
