@@ -2,15 +2,12 @@
   height: 80px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background: #fff;
   color: #333;
   text-align: center;
   padding: 10px;
-}
-
-.header_logo {
-  margin-right: 20px;
 }
 
 .header_logo img {
@@ -20,7 +17,7 @@
 
 ul.ddmenu {
   margin: 0px;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 20px 0px 0px;
   background-color: #fff;
 }
 
@@ -72,3 +69,4 @@ ul.ddmenu ul li a:hover {
   background-color: #fff;
   color: #555;
 }
+
