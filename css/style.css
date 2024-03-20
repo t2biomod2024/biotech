@@ -41,6 +41,17 @@ body {
     100% { transform: rotate(360deg); }
 }
 
+/* スライダー */
+.slider-menu-wrap {
+  position: relative;
+}
+
+.slide-items_wrap {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+}
+
 /* X 余白 */
 .twitter {
   margin: 20px;
