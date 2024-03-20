@@ -16,11 +16,11 @@ footer {
 #social-links {
   display: flex;
   justify-content: center;
-  white-space: nowrap;
 }
 
 #social-links div {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 #social-links a {
@@ -36,5 +36,3 @@ footer {
   width: 70px;
   height: auto;
 }
-
-
