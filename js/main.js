@@ -17,12 +17,29 @@ $(function () {
 });
 
 // News Slider
-$('.slider').bxSlider({
-	touchEnabled:false,
-	mode: 'vertical',
-	controls: false,
-	auto: 'true',
-	pager: false
+var slider;
+var sliderFlag = false;
+var breakpoint = 768;
+  
+function sliderSet() {
+        var windowWidth = window.innerWidth;
+        if (windowWidth >= breakpoint && !sliderFlag) {
+            slider = $('.slider').bxSlider({
+            touchEnabled:false,
+			mode: 'vertical',
+			controls: false,
+			auto: 'true',
+			pager: false
+		});
+            sliderFlag = true;
+        } else if (windowWidth < breakpoint && sliderFlag) {
+            slider.destroySlider();//bxSliderのOptionであるdestroySliderを使用してスライダーの動きを除去
+            sliderFlag = false;
+        }
+    }
+
+$(window).on('load resize', function() {
+    sliderSet();
 });
 
 //Fixed
