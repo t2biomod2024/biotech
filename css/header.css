@@ -1,36 +1,19 @@
-#header{
+#header {
+  background-color: #fff;
   height: 80px;
-  width:100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background:#fff;
-  color:#333;
-  text-align: center;
-  padding: 10px;
-}
-
-#header.fixed{
-  position: fixed;
-  z-index: 999;
-  top:0;
-  left:0;
+  width: 100%;
 }
 
 .header_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
- }
-  
+  padding: 20px;
+}
+
 .header_left {
   display: flex;
   align-items: center;
-}
-
-.header_logo {
-  margin-right: 20px;
 }
 
 .header_logo img {
@@ -38,9 +21,18 @@
   height: auto;
 }
 
+.header_text {
+  margin-left: 20px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
 ul.ddmenu {
   margin: 0px;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 20px 0px 0px;
   background-color: #fff;
 }
 
@@ -50,6 +42,7 @@ ul.ddmenu li {
   list-style-type: none;
   position: relative;
 }
+
 ul.ddmenu a {
   background-color: #fff;
   color: #333;
@@ -59,6 +52,7 @@ ul.ddmenu a {
   font-weight: bold;
   display: block;
 }
+
 ul.ddmenu a:hover {
   background-color: #fff;
   color: #555;
