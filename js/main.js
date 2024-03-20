@@ -12,8 +12,8 @@ window.addEventListener('load', function () {
 });
 
 // bx Slider
-$(document).ready(function () {
-    $('.slide-items').bxSlider();
+$(function () {
+	$('.slide-items').bxSlider();
 });
 
 // News Slider
