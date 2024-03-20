@@ -1,3 +1,10 @@
+/* 初期化 */
+*{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
 header {
   background-color: #ffffff;
   /* height: 80px; */
@@ -26,55 +33,48 @@ header {
   width: 150px;
   height: auto;
 }
-  
-ul.ddmenu {
-  margin: 10px;
-  padding: 0px 0px 0px 20px;
-  background-color: #ffffff;
+
+/* メニューボタン */
+ul.main li{
+  float:left;
+  width:150px;
+  height:38px;
+  background:url("btn_off.png");
+  position:relative;
 }
 
-ul.ddmenu li {
-  width: 100px;
-  display: inline-block;
-  list-style-type: none;
-  position: relative;
-  z-index: 100
+/* メニューボタンテキストリンク */
+ul.main li a{
+  display:block;
+  width:100%;
+  height:100%;
+  line-height:38px;
+  text-indent:30px;
+  font-weight:bold;
+  color:#CFDFB5;
+  text-decoration:none;
 }
 
-ul.ddmenu a {
-  background-color: #ffffff;
-  color: #333333;
-  line-height: 40px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  display: block;
+/* メニューボタンロールオーバー */
+ul.main li a:hover{
+  background:url("btn_off.png");
 }
 
-ul.ddmenu a:hover {
-  background-color: #ffffff;
-  color: #555555;
+/* サブメニュー */
+ul.sub{
+  display:none;
 }
 
-ul.ddmenu ul {
-  margin: 0px;
-  padding: 0px;
-  display: none;
-  position: absolute;
-  z-index: 101;
+/* clearfix */
+ul.main:after{
+  content:".";
+  display:block;
+  clear:both;
+  height:0;
+  visibility:hidden;
 }
 
-ul.ddmenu ul li {
-  width: 100px;
-  border-top: 1px solid #000;
-}
-ul.ddmenu ul li a {
-  line-height: 35px;
-  text-align: left;
-  padding-left: 5px;
-  font-weight: normal;
-}
-ul.ddmenu ul li a:hover {
-  background-color: #ffffff;
-  color: #555555;
+/* IE7用 */
+ul.main{
+  zoom:1;
 }
