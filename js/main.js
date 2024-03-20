@@ -3,6 +3,14 @@ $(document).ready(function () {
     $('.slide-items').bxSlider();
   });
 
+// News Slider
+$('.slider').bxSlider({
+	touchEnabled:false,
+	mode: 'vertical',
+	controls: false,
+	auto: 'true',
+	pager: false
+	});
 
 // Commonlize
 fetch("https://t2biomod2024.github.io/biotech/page_parts/header.html")
@@ -35,13 +43,3 @@ $(window).scroll(function () {
 $(window).on('load', function () {
 	FixedAnime();
 });
-
-
-// News Slider
-$('.slider').bxSlider({
-	touchEnabled:false,
-	mode: 'vertical',
-	controls: false,
-	auto: 'true',
-	pager: false
-	});
