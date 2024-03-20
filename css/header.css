@@ -1,6 +1,6 @@
 header {
   background-color: #ffffff;
-  height: 80px;
+  /* height: 80px; */
   }
 
 #header.fixed{
@@ -63,8 +63,8 @@ ul.ddmenu ul {
 }
 
 ul.ddmenu ul li {
-  width: 100px;               /* サブメニュー1項目の横幅(135px) */
-  border-top: 1px solid #000; /* 項目上側の枠線(ピンク色で1pxの実線) */
+  width: 100px;
+  border-top: 1px solid #000;
 }
 ul.ddmenu ul li a {
   line-height: 35px;
