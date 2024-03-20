@@ -2,7 +2,7 @@
   height: 80px;
   width:100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background:#fff;
   color:#333;
@@ -40,7 +40,7 @@
 
 ul.ddmenu {
   margin: 0px;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 20px;
   background-color: #fff;
 }
 
