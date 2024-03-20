@@ -1,7 +1,14 @@
-header {
-  background-color: #fff;
-  /* height: 80px; */
-  }
+#header{
+  height: 80px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:#fff;
+  color:#333;
+  text-align: center;
+  padding: 10px;
+}
 
 #header.fixed{
   position: fixed;
