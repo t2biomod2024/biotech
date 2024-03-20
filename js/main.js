@@ -3,6 +3,8 @@ $(document).ready(function () {
     $('.slide-items').bxSlider();
   });
 
+
+// Commonlize
 fetch("https://t2biomod2024.github.io/biotech/page_parts/header.html")
     .then((response) => response.text())
     .then((data) => document.querySelector("body").insertAdjacentHTML('afterbegin', data));
@@ -16,17 +18,14 @@ window.addEventListener('load', function () {
 });
 
 //DropDownMenu
-   $(function(){
-      // ▼マウスが載ったらサブメニューを表示
-      $("ul.ddmenu li").mouseenter(function(){
-         $(this).siblings().find("ul").hide();  // 兄弟要素に含まれるサブメニューを全部消す。
-         $(this).children().slideDown(150);     // 自分のサブメニューを表示する。
-      });
-      // ▼どこかがクリックされたらサブメニューを消す
-      $('html').click(function() {
-         $('ul.ddmenu ul').slideUp(150);
-      });
-   });
+$(function(){
+  $("ul.ddmenu li").hover(function(){
+    $(">ul:not(:animated)",this).slideDown("fast")
+  },
+  function(){
+    $(">ul",this).slideUp("fast")
+  })
+})
 
 //Fixed
 //スクロールすると上部に固定させるための設定を関数でまとめる
