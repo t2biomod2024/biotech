@@ -15,7 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .header_left {
@@ -29,7 +29,7 @@
 }
 
 .header_text {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .header_right {
@@ -39,7 +39,7 @@
 
 ul.ddmenu {
   margin: 0px;
-  padding: 0px 20px 0px 0px;
+  padding: 0px 40px 0px 0px;
   background-color: #fff;
 }
 
