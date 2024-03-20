@@ -4,3 +4,16 @@ footer {
     text-align: center;
     padding: 20px;
   }
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+}
+
+#social-links a {
+    margin: 0 10px;
+}
