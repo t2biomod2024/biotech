@@ -16,21 +16,31 @@ window.addEventListener('load', function () {
 });
 
 //DropDownMenu
-$(function() {
-  // メニュー項目にマウスが入ったときの処理
-  $("ul.ddmenu > li").mouseenter(function() {
-    // 他のサブメニューを非表示にする
-    $(this).siblings().find("ul").slideUp(150);
-    // 自身のサブメニューを表示する
-    $(this).children("ul").stop(true, true).slideDown(150);
+$(document).ready(function() {
+  // メニューの親要素がクリックされたときの処理
+  $('.ddmenu > li').click(function(e) {
+      // クリックされた要素の子要素のulを取得
+      var submenu = $(this).children('ul');
+
+      // クリックされた要素以外のすべてのサブメニューを非表示にする
+      $('.ddmenu > li > ul').not(submenu).slideUp();
+
+      // クリックされた要素のサブメニューが表示されていない場合は表示、表示されている場合は非表示にする
+      submenu.slideToggle();
+
+      // イベントの伝播を停止する（親要素や他の要素にイベントが伝わらないようにする）
+      e.stopPropagation();
   });
 
-  // どこかがクリックされたときの処理
-  $(document).click(function(event) {
-    // クリックされた要素がドロップダウンメニュー内の要素でなければ、すべてのサブメニューを非表示にする
-    if (!$(event.target).closest('.ddmenu').length) {
-      $('ul.ddmenu ul').slideUp(150);
-    }
+  // メニュー以外の領域がクリックされたときの処理
+  $(document).click(function() {
+      // すべてのサブメニューを非表示にする
+      $('.ddmenu > li > ul').slideUp();
+  });
+
+  // メニューがクリックされたときにイベントの伝播を停止しないようにする
+  $('.ddmenu > li > ul').click(function(e) {
+      e.stopPropagation();
   });
 });
 
