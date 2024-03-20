@@ -19,24 +19,22 @@ window.addEventListener('load', function () {
 
 //Fixed
 function FixedAnime() {
-	var elemTop = $('#area-3').offset().top;
+	var headerH = $('#header').outerHeight(true);
 	var scroll = $(window).scrollTop();
-	if(scroll <= 20){
-			$('#header').removeClass('UpMove');
-			$('#header').addClass('DownMove');
-
-		}else{
-			if($('#header').hasClass('DownMove')){
-				$('#header').removeClass('DownMove');
-				$('#header').addClass('UpMove');
-			}
+	if (scroll >= headerH){//headerの高さ以上になったら
+			$('#header').addClass('fixed');//fixedというクラス名を付与
+		}else{//それ以外は
+			$('#header').removeClass('fixed');//fixedというクラス名を除去
 		}
 }
 
+// 画面をスクロールをしたら動かしたい場合の記述
 $(window).scroll(function () {
-	FixedAnime();
+	FixedAnime();/* スクロール途中からヘッダーを出現させる関数を呼ぶ*/
 });
 
+// ページが読み込まれたらすぐに動かしたい場合の記述
 $(window).on('load', function () {
-	FixedAnime();
+	FixedAnime();/* スクロール途中からヘッダーを出現させる関数を呼ぶ*/
 });
+
