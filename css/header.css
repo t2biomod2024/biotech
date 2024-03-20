@@ -21,6 +21,7 @@
 .header_left {
   display: flex;
   align-items: center;
+  margin-left: 30px;
 }
 
 .header_logo img {
@@ -39,7 +40,7 @@
 
 ul.ddmenu {
   margin: 0px;
-  padding: 0px 40px 0px 0px;
+  padding: 0px 20px 0px 0px;
   background-color: #fff;
 }
 
