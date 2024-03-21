@@ -68,12 +68,14 @@ bbn img {
 }
 
 /* ニュース */
+.slider-cover {
+  height: 100px;
+  width: 600px;
+}
+
 .slider {
   position: relative;
   align-items: center;
-  height: 100px;
-  width: 600px;
-  font-family: Arial, sans-serif;
 }
 
 .slider a {
