@@ -92,7 +92,3 @@ ul.ddmenu ul li a:hover {
   background-color: #fff;
   color: #555;
 }
-
-ul.ddmenu li:hover > ul {
-  display: block;
-}
