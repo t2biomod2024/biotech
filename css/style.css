@@ -14,7 +14,12 @@ li {
   list-style-type:none;
 }
 
-h1, h2, h3 {
+h1 {
+  position: relative;
+  align-items: center
+}
+
+h2, h3 {
   color: #333;
 }
   
