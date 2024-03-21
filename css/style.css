@@ -62,6 +62,7 @@ bbn img {
 /* ニュース */
 .slider {
   position: relative;
+  align-items: center
 }
 
 .slider a {
@@ -69,8 +70,6 @@ bbn img {
   background: #fff;
   padding: 20px;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .slider span {
