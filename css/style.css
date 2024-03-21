@@ -71,6 +71,7 @@ bbn img {
 /* ニュース */
 .slider-cover {
   width: 60%;
+  margin: 20px 0 0 0;
 }
 
 .slider a {
