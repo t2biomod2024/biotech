@@ -60,10 +60,23 @@ bbn img {
 }
 
 /* ニュース */
-.slider a{
+.slider {
+  position: relative;
+  align-items: center
+}
+
+.slider a {
   display: block;
-  background:#fff;
-  padding:20px;
+  background: #fff;
+  padding: 20px;
+  position: absolute;
+}
+
+.slider span {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  color: #777;
 }
 
 .slider span{
@@ -71,6 +84,26 @@ bbn img {
   font-size:0.8rem;
   margin-right:10px;
   color:#777;
+}
+
+/* ニュース 768px以下の見た目 */
+@media screen and (max-width:768px) {
+  .slider {
+      padding:20px;
+      background:#fff;
+  }
+
+  .slider li {
+      border-bottom:1px dashed #ccc;
+  }
+
+  .slider li:last-child {
+      border-bottom:none;
+  }
+  .slider span {
+      display:block;
+  padding-bottom:10px;
+  }
 }
 
 /* X 余白 */
