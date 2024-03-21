@@ -70,20 +70,13 @@ bbn img {
 
 /* ニュース */
 .slider-cover {
-  height: 100px;
-  width: 600px;
-}
-
-.slider {
-  position: relative;
-  align-items: center;
+  width: 60%;
 }
 
 .slider a {
   display: block;
   background: #fff;
   padding: 20px;
-  position: absolute;
 }
 
 .slider span {
@@ -91,13 +84,6 @@ bbn img {
   font-size: 0.8rem;
   margin-right: 10px;
   color: #777;
-}
-
-.slider span{
-  display:inline-block;
-  font-size:0.8rem;
-  margin-right:10px;
-  color:#777;
 }
 
 /* ニュース 768px以下の見た目 */
