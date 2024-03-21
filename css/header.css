@@ -2,6 +2,8 @@
   background-color: #fff;
   height: 80px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #header.fixed{
@@ -91,4 +93,8 @@ ul.ddmenu ul li a {
 ul.ddmenu ul li a:hover {
   background-color: #fff;
   color: #555;
+}
+
+ul.ddmenu li:hover > ul {
+  display: block;
 }
