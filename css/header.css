@@ -78,12 +78,12 @@ ul.ddmenu ul {
 }
 
 ul.ddmenu ul li {
-  width: 100px;
+  width: 40px;
   border-top: 1px solid #333;
 }
 
 ul.ddmenu ul li a {
-  line-height: 40px;
+  line-height: 100px;
   text-align: center;
   font-weight: bold;
 }
