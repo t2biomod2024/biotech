@@ -25,6 +25,7 @@ p {
 /* bbn */
 bbn {
   display: block;
+  margin-bottom: 20px;
 }
 
 bbn img {
