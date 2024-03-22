@@ -73,6 +73,7 @@ bbn img {
   display: flex;
   justify-content: space-between;
   background-color:#ddd;
+  padding: 0 100px 0 100px;
 }
 
 #Mapleft {
