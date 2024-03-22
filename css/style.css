@@ -121,6 +121,15 @@ iframe {
 .topic-slide-items-wrap {
   width: 1600px;
   height: 1200px;
+  position: relative;
+}
+
+.topic-slide-items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* NEWS */
