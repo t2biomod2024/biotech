@@ -93,7 +93,7 @@ bbn img {
   gap: 30px;
 }
 
-.news_sitem {
+.news_item {
   padding: 30px;
   width: calc((100% - 30px * 2) / 3);
   background-color: #fff;
