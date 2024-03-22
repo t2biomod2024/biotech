@@ -22,8 +22,11 @@ h1 {
 h2 {
   color: #333;
   border-top-style: solid;
-  border-top-width: 3px;
-  padding-top: 10px;
+  border-top-width: 2px;
+  padding-top: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 30px;
 }
 
 h3 {
