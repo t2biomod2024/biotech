@@ -92,8 +92,7 @@ bbn img {
 }
 
 .news_item {
-  padding:30px;
-  width: calc((100% - 130px) / 3);
+  width: calc((100% - 150px) / 3);
   background-color: #fff;
 }
 
