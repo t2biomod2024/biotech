@@ -113,7 +113,7 @@ iframe {
 
 /* Topic slider */
 .Topic-slider {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   margin: 50px;
@@ -160,8 +160,8 @@ iframe {
 
 .slider a {
   display: block;
-  background: #ff0000;
-  padding: 20px 20px 50px 20px;
+  background: #fff;
+  padding: 20px 20px 55px 20px;
 }
 
 .slider span {
@@ -169,7 +169,7 @@ iframe {
   font-size: 0.8rem;
   margin-right: 10px;
   color: #777;
-  background: #1100ff;
+  background: #fff;
 }
 
 @media screen and (max-width:768px) {
