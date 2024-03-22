@@ -97,12 +97,12 @@ bbn img {
 }
 
 .news_item img {
-  width: calc((100% - 100px) / 3);
+  width: 100%;
   height: auto;
 }
 
 @media not all and (min-width: 768px) {
-  .item {
+  .news_item {
     width: 100%;
   }
 }
