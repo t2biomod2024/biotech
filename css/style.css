@@ -72,7 +72,7 @@ bbn img {
 #Maparea {
   display: flex;
   justify-content: space-between;
-  background-color:#888;
+  background-color:#ddd;
 }
 
 #Mapleft {
