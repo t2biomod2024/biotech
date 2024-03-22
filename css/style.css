@@ -27,7 +27,7 @@ h2 {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   padding-bottom: 30px;
-  margin: 50px 0 50px 0
+  margin: 50px 0 50px 0;
 }
 
 h3 {
@@ -116,6 +116,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px;
 }
 
 .topic-slide-items-wrap {
