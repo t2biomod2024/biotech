@@ -13,7 +13,7 @@ window.addEventListener('load', function () {
 
 // bx Slider
 $(function () {
-	$('.slide-items').bxSlider();
+	$('.topic-slide-items').bxSlider();
 });
 
 // News Slider
