@@ -177,15 +177,17 @@ iframe {
 .btn {
   display: flex;
   align-items: center;
+  width: 200px;
+  height: 100px;
 }
 
 .btn,a.btn {
   color: #fff;
-  background-color: #eb6100;
+  background-color: #000;
 }
 .btn:hover,a.btn:hover {
   color: #fff;
-  background: #f56500;
+  background: #000;
 }
 
 a.btn {
