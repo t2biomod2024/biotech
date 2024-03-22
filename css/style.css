@@ -16,7 +16,7 @@ li {
 
 h1 {
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 50px 0 50px 0;
 }
 
 h2, h3 {
@@ -39,7 +39,6 @@ bbn {
 bbn img {
   width: 100%;
 }
-
 
 /* ローディング */
 .loading-overlay {
