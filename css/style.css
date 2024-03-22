@@ -173,6 +173,25 @@ iframe {
   }
 }
 
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn,a.btn {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn:hover,a.btn:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+a.btn {
+   border-radius: 100vh;
+}
+
 /* X 余白 */
 .twitter {
   margin: 20px;
