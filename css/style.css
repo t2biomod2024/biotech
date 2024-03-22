@@ -96,6 +96,21 @@ bbn img {
   align-items: center;
 }
 
+#MapContainer {
+  width: 800px;
+  height: 600px;
+  position: relative;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 /* NEWS */
 .news_wrap {
   display: flex;
