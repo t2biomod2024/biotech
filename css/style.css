@@ -96,6 +96,11 @@ bbn img {
   background-color: #fff;
 }
 
+.news_item img {
+  width: calc((100% - 100px) / 3);
+  height: auto;
+}
+
 @media not all and (min-width: 768px) {
   .item {
     width: 100%;
