@@ -87,13 +87,13 @@ bbn img {
 }
 
 /* NEWS */
-.wrap {
+.news_wrap {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.item {
+.news_sitem {
   padding: 30px;
   width: calc((100% - 30px * 2) / 3);
   background-color: #fff;
