@@ -111,17 +111,6 @@ iframe {
   height: 100%;
 }
 
-.Topic-slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.topic-slide-items-wrap {
-  width: 1600px;
-  height: 1200px;
-}
-
 /* NEWS */
 .news_wrap {
   display: flex;
