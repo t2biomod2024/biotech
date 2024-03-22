@@ -99,6 +99,7 @@ bbn img {
 .news_item img {
   width: 100%;
   height: auto;
+  border-radius: 2%;
 }
 
 @media not all and (min-width: 768px) {
