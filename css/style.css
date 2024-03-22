@@ -99,6 +99,11 @@ bbn img {
   background-color: #fff;
 }
 
+@media not all and (min-width: 768px) {
+  .item {
+    width: 100%;
+  }
+}
 
 /* index.htmlのニュース */
 .slider-cover {
@@ -118,7 +123,6 @@ bbn img {
   color: #777;
 }
 
-/* index.htmlのニュース 768px以下の見た目 */
 @media screen and (max-width:768px) {
   .slider {
       padding:20px;
