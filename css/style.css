@@ -113,9 +113,8 @@ iframe {
 
 /* Topic slider */
 .Topic-slider {
-  display: inline-block;
+  display: flex;
   justify-content: center;
-  align-items: center;
   margin: 50px;
 }
 
@@ -191,6 +190,7 @@ iframe {
   }
 }
 
+/*button*/
 .button-container {
   text-align: center;
 }
