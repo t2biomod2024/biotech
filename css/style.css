@@ -68,6 +68,21 @@ bbn img {
   100% { transform: rotate(360deg); }
 }
 
+/* コンタクト */
+#Maparea {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Mapleft {
+  flex: 1;
+}
+
+#Mapright {
+  flex: 1;
+}
+
+
 /* ニュース */
 .slider-cover {
   width: 60%;
