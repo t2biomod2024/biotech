@@ -159,7 +159,7 @@ iframe {
 
 .slider a {
   display: block;
-  background: #fff;
+  background: #ff0000;
   padding: 20px;
 }
 
@@ -168,6 +168,7 @@ iframe {
   font-size: 0.8rem;
   margin-right: 10px;
   color: #777;
+  background: #1100ff;
 }
 
 @media screen and (max-width:768px) {
