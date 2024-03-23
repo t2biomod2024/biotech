@@ -20,13 +20,8 @@ $(function () {
       centerMode: true,
       centerPadding: "15%",
       dots: true,
-      dotsClass: 'topic-dots',
-      customPaging: function(slider, i) {
-          return '';
-      }
     });
 });
-
 
 // news-slider
 var slider;
@@ -36,7 +31,7 @@ var breakpoint = 768;
 function sliderSet() {
         var windowWidth = window.innerWidth;
         if (windowWidth >= breakpoint && !sliderFlag) {
-            slider = $('.slider').bxSlider({
+            slider = $('.news-slider').bxSlider({
             touchEnabled:false,
 			mode: 'vertical',
 			controls: false,

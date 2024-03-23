@@ -125,27 +125,6 @@ iframe {
   width: 100%;
 }
 
-.topic-dots {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.topic-dots button {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #888;
-  border: none;
-  cursor: pointer;
-  margin: 0 5px;
-}
-
-.topic-dots button.slick-active {
-  background-color: #000;
-}
-
 /* NEWS */
 .news_wrap {
   display: flex;
@@ -171,17 +150,17 @@ iframe {
 }
 
 /* index.htmlのニュース */
-.slider-cover {
+.news-slider-cover {
   margin: 0;
 }
 
-.slider a {
+.news-slider a {
   display: block;
   background: #fff;
   padding: 20px 20px 55px 20px;
 }
 
-.slider span {
+.news-slider span {
   display: inline-block;
   font-size: 0.8rem;
   margin-right: 10px;
@@ -190,19 +169,19 @@ iframe {
 }
 
 @media screen and (max-width:768px) {
-  .slider {
+  .news-slider {
       padding:20px;
       background:#fff;
   }
 
-  .slider li {
+  .news-slider li {
       border-bottom:1px dashed #ccc;
   }
 
-  .slider li:last-child {
+  .news-slider li:last-child {
       border-bottom:none;
   }
-  .slider span {
+  .news-slider span {
       display:block;
   padding-bottom:10px;
   }
