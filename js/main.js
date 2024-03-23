@@ -13,7 +13,7 @@ window.addEventListener('load', function () {
 
 // bx Slider
 $(function () {
-    $(".slider").slick({
+    $(".topic-slider").slick({
       arrows: false,
       autoplay: true,
       adaptiveHeight: true,
