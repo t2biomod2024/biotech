@@ -190,7 +190,17 @@ iframe {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:0 0 20px 0;
+  position: relative;
+}
+
+.contact_content::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #777;
 }
 
 .contact_left,
@@ -202,7 +212,7 @@ iframe {
 .contact_right {
   display: flex;
   justify-content: flex-end;
-  margin: 0 20px 0 0;
+  margin: 20px 0 20px 20px;
 }
 
 .twitter {
