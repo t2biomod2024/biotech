@@ -184,6 +184,13 @@ iframe {
   border-radius: 8px;
 }
 
+.contact_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
 /* X 余白 */
 .twitter {
   margin: 100px;
