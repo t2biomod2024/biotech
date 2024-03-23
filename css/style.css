@@ -186,6 +186,7 @@ iframe {
 }
 
 /* Contact Content */
+/* Contact Content */
 .contact_content {
   display: flex;
   justify-content: space-between;
@@ -196,11 +197,12 @@ iframe {
 .contact_content::before {
   content: '';
   position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 2px;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
   background-color: #777;
+  transform: translateX(-50%);
 }
 
 .contact_left,
