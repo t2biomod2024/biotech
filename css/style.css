@@ -188,20 +188,26 @@ iframe {
 /* Contact Content */
 .contact_content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; /* 左右に要素を配置 */
+  align-items: center; /* 要素を垂直方向に中央揃え */
 }
 
 .contact_left,
 .contact_right {
-  width: 48%;
+  width: 48%; /* 左右の要素を均等に配置 */
+}
+
+.contact_left {
+  border-right: 2px solid #333; /* 右側に境界線を追加 */
+  padding-right: 20px; /* 右側の余白を追加 */
 }
 
 .contact_right {
-  border-left: 2px solid #777;
-  padding-left: 20px;
+  display: flex;
+  justify-content: center; /* 右側の要素を中央に配置 */
+  align-items: center; /* 中央揃え */
 }
 
 .twitter {
-  max-width: 100%;
+  max-width: 100%; /* Twitterの要素の幅を最大100%に設定 */
 }
