@@ -125,24 +125,29 @@ iframe {
   width: 100%;
 }
 
-.slick-dots {
+.slick-dots.topic-dots {
   text-align: center;
 }
 
-.slick-dots button {
+.slick-dots.topic-dots li {
   display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots.topic-dots li button {
+  display: block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #888;
   border: none;
-  margin: 0 5px;
   cursor: pointer;
 }
 
-.slick-dots button.slick-active {
+.slick-dots.topic-dots li.slick-active button {
   background-color: #000; /* アクティブなドットの色 */
 }
+
 
 /* NEWS */
 .news_wrap {
