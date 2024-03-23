@@ -11,7 +11,7 @@ window.addEventListener('load', function () {
   document.querySelector('.loading-overlay').style.display = 'none';
 });
 
-// bx Slider
+// topic-slider
 $(function () {
     $(".topic-slider").slick({
       arrows: false,
@@ -23,7 +23,7 @@ $(function () {
     });
   });
 
-// News Slider
+// news-slider
 var slider;
 var sliderFlag = false;
 var breakpoint = 768;
@@ -40,7 +40,7 @@ function sliderSet() {
 		});
             sliderFlag = true;
         } else if (windowWidth < breakpoint && sliderFlag) {
-            slider.destroySlider();//bxSliderのOptionであるdestroySliderを使用してスライダーの動きを除去
+            slider.destroySlider();
             sliderFlag = false;
         }
     }
