@@ -125,6 +125,25 @@ iframe {
   width: 100%;
 }
 
+.slick-dots {
+  text-align: center;
+}
+
+.slick-dots button {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #888;
+  border: none;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slick-dots button.slick-active {
+  background-color: #000; /* アクティブなドットの色 */
+}
+
 /* NEWS */
 .news_wrap {
   display: flex;

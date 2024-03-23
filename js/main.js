@@ -19,9 +19,13 @@ $(function () {
       adaptiveHeight: true,
       centerMode: true,
       centerPadding: "15%",
-      dots: true,
+      appendDots: $('.button-container'),
+      customPaging: function(slider, i) {
+          return '<button class="dot"></button>';
+      }
     });
-  });
+});
+
 
 // news-slider
 var slider;
