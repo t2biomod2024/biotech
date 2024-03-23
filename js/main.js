@@ -11,12 +11,18 @@ window.addEventListener('load', function () {
   document.querySelector('.loading-overlay').style.display = 'none';
 });
 
-// bx Slider
+// topic-slider
 $(function () {
-	$('.slide-items').bxSlider();
+    $(".topic-slider").slick({
+      autoplay: true,
+      adaptiveHeight: true,
+      centerMode: true,
+      centerPadding: "15%",
+      dots: true,
+    });
 });
 
-// News Slider
+// news-slider
 var slider;
 var sliderFlag = false;
 var breakpoint = 768;
@@ -24,7 +30,7 @@ var breakpoint = 768;
 function sliderSet() {
         var windowWidth = window.innerWidth;
         if (windowWidth >= breakpoint && !sliderFlag) {
-            slider = $('.slider').bxSlider({
+            slider = $('.news-slider').bxSlider({
             touchEnabled:false,
 			mode: 'vertical',
 			controls: false,
@@ -33,7 +39,7 @@ function sliderSet() {
 		});
             sliderFlag = true;
         } else if (windowWidth < breakpoint && sliderFlag) {
-            slider.destroySlider();//bxSliderのOptionであるdestroySliderを使用してスライダーの動きを除去
+            slider.destroySlider();
             sliderFlag = false;
         }
     }
