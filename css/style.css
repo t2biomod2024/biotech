@@ -191,8 +191,10 @@ iframe {
 }
 
 /*button*/
+/*button*/
 .button-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 button {
