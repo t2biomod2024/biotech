@@ -116,11 +116,13 @@ iframe {
   text-align: center;
   justify-content: center;
   margin: 50px;
+  background: #ff0000;
 }
 
 .topic-slide-items-wrap {
   width: 800px;
   height: 500px;
+  background: #0008ff;
 }
 
 .topic-slide-items {
