@@ -14,7 +14,6 @@ window.addEventListener('load', function () {
 // topic-slider
 $(function () {
     $(".topic-slider").slick({
-      arrows: false,
       autoplay: true,
       adaptiveHeight: true,
       centerMode: true,
