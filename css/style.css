@@ -145,12 +145,6 @@ iframe {
   border-radius: 2%;
 }
 
-@media not all and (min-width: 768px) {
-  .news_item {
-    width: 100%;
-  }
-}
-
 /* index.htmlのニュース */
 .news-slider-cover {
   margin: 0;
@@ -168,25 +162,6 @@ iframe {
   margin-right: 10px;
   color: #777;
   background: #fff;
-}
-
-@media screen and (max-width:768px) {
-  .news-slider {
-      padding:20px;
-      background:#fff;
-  }
-
-  .news-slider li {
-      border-bottom:1px dashed #ccc;
-  }
-
-  .news-slider li:last-child {
-      border-bottom:none;
-  }
-  .news-slider span {
-      display:block;
-  padding-bottom:10px;
-  }
 }
 
 /*button*/

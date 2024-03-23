@@ -1,0 +1,22 @@
+@media screen and (max-width:768px) {
+    .news_item {
+        width: 100%;
+      }  
+
+    .news-slider {
+        padding:20px;
+        background:#fff;
+    }
+  
+    .news-slider li {
+        border-bottom:1px dashed #ccc;
+    }
+  
+    .news-slider li:last-child {
+        border-bottom:none;
+    }
+    .news-slider span {
+        display:block;
+    padding-bottom:10px;
+    }
+  }
