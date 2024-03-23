@@ -125,6 +125,12 @@ iframe {
   width: 100%;
 }
 
+.slick-prev,
+.slick-next {
+    color: black;
+}
+
+
 /* NEWS */
 .news_wrap {
   display: flex;
