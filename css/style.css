@@ -1,7 +1,7 @@
 /* フォント */
 body {
   font-family: "Arial", "メイリオ", sans-serif;
-  background-color: #eee;
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -82,7 +82,7 @@ bbn img {
 #Maparea {
   display: flex;
   justify-content: space-between;
-  background-color:#ddd;
+  background-color:#fff;
   padding: 0 100px 0 100px;
 }
 
@@ -136,7 +136,7 @@ iframe {
 
 .news_item {
   width: calc((100% - 100px) / 3);
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .news_item img {
@@ -158,7 +158,7 @@ iframe {
 
 .news-slider a {
   display: block;
-  background: #eee;
+  background: #fff;
   padding: 20px 20px 55px 20px;
 }
 
@@ -167,13 +167,13 @@ iframe {
   font-size: 0.8rem;
   margin-right: 10px;
   color: #777;
-  background: #eee;
+  background: #fff;
 }
 
 @media screen and (max-width:768px) {
   .news-slider {
       padding:20px;
-      background:#eee;
+      background:#fff;
   }
 
   .news-slider li {
@@ -198,7 +198,7 @@ iframe {
 .more-button {
   background-color: #000;
   border: none;
-  color: #eee;
+  color: #fff;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
