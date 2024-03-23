@@ -117,19 +117,19 @@ iframe {
   max-width: 500px;
   width: 80%;
 }
+
 .topic-slider-img {
   margin: 0 10px;
 }
+
 .topic-slider-img img {
   height: auto;
   width: 100%;
 }
 
-.slick-prev,
-.slick-next {
+.slick-prev,.slick-next {
     color: black;
 }
-
 
 /* NEWS */
 .news_wrap {
