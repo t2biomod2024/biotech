@@ -187,18 +187,18 @@ iframe {
 /* Contact Content */
 .contact_content {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact_left,
 .contact_right {
-  width: 100%;
+  width: 48%;
 }
 
 .contact_right {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .twitter {
