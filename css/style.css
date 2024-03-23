@@ -202,11 +202,6 @@ iframe {
   padding-right: 20px;
 }
 
-.contact_right {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .twitter {
   max-width: 100%;
 }
