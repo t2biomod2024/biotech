@@ -13,8 +13,15 @@ window.addEventListener('load', function () {
 
 // bx Slider
 $(function () {
-	$('.topic-slide-items').bxSlider();
-});
+    $(".slider").slick({
+      arrows: false,
+      autoplay: true,
+      adaptiveHeight: true,
+      centerMode: true,
+      centerPadding: "15%",
+      dots: true,
+    });
+  });
 
 // News Slider
 var slider;
