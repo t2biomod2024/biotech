@@ -127,24 +127,22 @@ iframe {
 
 .topic-dots {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.topic-dots li {
+.topic-dots button {
   display: inline-block;
-  margin: 0 5px;
-}
-
-.topic-dots li button {
-  display: block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: #888;
   border: none;
   cursor: pointer;
+  margin: 0 5px;
 }
 
-.topic-dots li.slick-active button {
+.topic-dots button.slick-active {
   background-color: #000;
 }
 

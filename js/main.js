@@ -20,7 +20,7 @@ $(function () {
       centerMode: true,
       centerPadding: "15%",
       dots: true,
-      dotsClass: 'slick-dots topic-dots',
+      dotsClass: 'topic-dots',
       customPaging: function(slider, i) {
           return '';
       }
