@@ -250,9 +250,10 @@ margin:0 5px;
 /*button*/
 .button-container {
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.button-container button {
+button {
   background-color: #000;
   border: none;
   color: white;
