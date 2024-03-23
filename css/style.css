@@ -125,16 +125,16 @@ iframe {
   width: 100%;
 }
 
-.slick-dots.topic-dots {
+.topic-dots {
   text-align: center;
 }
 
-.slick-dots.topic-dots li {
+.topic-dots li {
   display: inline-block;
   margin: 0 5px;
 }
 
-.slick-dots.topic-dots li button {
+.topic-dots li button {
   display: block;
   width: 10px;
   height: 10px;
@@ -144,10 +144,9 @@ iframe {
   cursor: pointer;
 }
 
-.slick-dots.topic-dots li.slick-active button {
-  background-color: #000; /* アクティブなドットの色 */
+.topic-dots li.slick-active button {
+  background-color: #000;
 }
-
 
 /* NEWS */
 .news_wrap {

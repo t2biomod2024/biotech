@@ -19,13 +19,14 @@ $(function () {
       adaptiveHeight: true,
       centerMode: true,
       centerPadding: "15%",
-      dots: true, // ドットを表示する
-      dotsClass: 'slick-dots topic-dots', // ドットを表示する要素のクラスを指定
+      dots: true,
+      dotsClass: 'slick-dots topic-dots',
       customPaging: function(slider, i) {
-          return ''; // ドットは空にする
+          return '';
       }
     });
 });
+
 
 // news-slider
 var slider;
