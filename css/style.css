@@ -252,7 +252,7 @@ margin:0 5px;
   text-align: center;
 }
 
-button {
+.button-container button {
   background-color: #000;
   border: none;
   color: white;
