@@ -19,6 +19,8 @@ $(function () {
       centerMode: true,
       centerPadding: "15%",
       dots: true,
+      prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
+      nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>'
     });
 });
 
