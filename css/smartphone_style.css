@@ -65,9 +65,10 @@
         height: 100%;
         position: fixed;
         top: 0;
-        left: 0;
+        left: 100%;
         z-index: 80;
         background-color: #3584bb;
+        transition: all 0.5s;
     }
 
     .menu-content ul {
@@ -89,7 +90,7 @@
         padding: 9px 15px 10px 0;
         position: relative;
     }
-    
+
     .menu-content ul li a::before {
         content: "";
         width: 7px;
@@ -100,6 +101,10 @@
         position: absolute;
         right: 11px;
         top: 16px;
+    }
+
+    #menu-btn-check:checked ~ .menu-content {
+        left: 0;
     }
 
 /* News slider */
