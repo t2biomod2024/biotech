@@ -5,6 +5,10 @@
         display: none;
     }
 
+    .pc-bbn {
+        display: none;
+    }
+
 /* スマホ＿基本 */
     main {
         padding: 0 20px 0 20px;
@@ -134,5 +138,8 @@
 /* パソコンで非表示 */
     .smartphone-menu {
       display: none;
+    }
+    .smartphone-bbn {
+        display: none;
     }
 }
