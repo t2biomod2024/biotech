@@ -1,11 +1,55 @@
 @media screen and (max-width:768px) {
     .header_right {
         display: none;
-      }
+    }
+    
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    
+    .hamburger-icon {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 4px 0;
+    }
+    
+    .menu-items {
+        position: fixed;
+        top: 80px; /* ヘッダーの下に配置 */
+        right: 0;
+        background-color: #fff;
+        width: 100%;
+        max-width: 300px; /* メニューの最大幅を指定 */
+        padding: 20px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+    
+    .menu-items ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu-items ul li {
+        margin-bottom: 10px;
+    }
+    
+    .menu-items ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+
 
     .news_item {
         width: 100%;
-      }  
+    }  
 
     .news-slider {
         padding:20px;
