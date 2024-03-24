@@ -35,6 +35,7 @@
 }
 
 .header_right {
+  position: fixed;
   display: flex;
   align-items: center;
 }
