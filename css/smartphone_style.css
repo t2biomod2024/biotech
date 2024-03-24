@@ -13,9 +13,22 @@
         display: none;
     }
 
+    .pc-map {
+        display: none;
+    }
+
 /* スマホ＿基本 */
     main {
         padding: 0 20px 0 20px;
+    }
+
+    #Maparea {
+        padding: 0 20px 0 20px;
+    }
+
+    #MapContainer {
+        width: 300px;
+        height: 200px;
     }
 
 /* ハンバーガーメニュー */
@@ -149,6 +162,10 @@
     }
 
     .smartphone-contact {
+        display: none;
+    }
+
+    .smartphone-map {
         display: none;
     }
 }
