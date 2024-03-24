@@ -9,40 +9,84 @@
         cursor: pointer;
         margin-right: 20px;
     }
-    
-    .hamburger-icon {
-        width: 25px;
-        height: 3px;
-        background-color: #333;
-        margin: 4px 0;
+
+    /* ハンバーガー */
+    .hamburger-menu {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        border: none;
+        background: transparent;
+        appearance: none;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .hamburger-menu__bar {
+        display: inline-block;
+        width: 44%;
+        height: 2px;
+        background: #242424;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: .5s;
+    }
+
+    .hamburger-menu__bar:first-child {
+        top: 16px;
     }
     
-    .menu-items {
-        position: fixed;
-        top: 80px; /* ヘッダーの下に配置 */
-        right: 0;
-        background-color: #fff;
-        width: 100%;
-        max-width: 300px; /* メニューの最大幅を指定 */
-        padding: 20px;
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    .hamburger-menu__bar:nth-child(2) {
+        top: 24px;
+    }
+    .hamburger-menu__bar:last-child {
+        top: 32px;
+    }
+    .hamburger-menu--open .hamburger-menu__bar {
+        top: 50%;
+    }
+    .hamburger-menu--open .hamburger-menu__bar:first-child {
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    }
+    .hamburger-menu--open .hamburger-menu__bar:last-child {
+        transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    }
+    .hamburger-menu--open .hamburger-menu__bar:nth-child(2) {
         display: none;
     }
-    
-    .menu-items ul {
-        list-style-type: none;
+    .navigation {
+        display: none;
+        background: #242424;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        z-index: 9999;
+    }
+    .navigation__list {
+        text-align: center;
+        list-style: none;
         padding: 0;
         margin: 0;
     }
-    
-    .menu-items ul li {
-        margin-bottom: 10px;
+    .navigation__list-item {
+        border-bottom: solid 1px #474747;
     }
-    
-    .menu-items ul li a {
+    .navigation__list-item:first-child {
+        border-top: solid 1px #474747;
+    }
+    .navigation__link {
+        color: #fff;
+        font-weight: 700;
         text-decoration: none;
-        color: #333;
-        font-weight: bold;
+        display: block;
+        padding: 24px 0;
+        transition: .5s;
+    }
+    @media (hover: hover) and (pointer: fine) {
+        .navigation__link:hover {
+          background: #333;
+        }
     }
 
 
