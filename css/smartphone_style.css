@@ -43,7 +43,7 @@
     }
 
     #menu-btn-check:checked ~ .menu-btn span {
-        background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+        background-color: rgba(255, 255, 255, 0);
     }
     #menu-btn-check:checked ~ .menu-btn span::before {
         bottom: 0;
@@ -53,7 +53,6 @@
         top: 0;
         transform: rotate(-45deg);
     }
-
 
 /* News slider */
     .news_item {
