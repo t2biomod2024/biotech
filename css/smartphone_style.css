@@ -1,13 +1,6 @@
 @media screen and (max-width:768px) {
-    .header_right {
+    .pc-menu {
         display: none;
-    }
-    
-    .menu-toggle {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        margin-right: 20px;
     }
 
     /* ハンバーガー */
@@ -111,4 +104,10 @@
         display:block;
     padding-bottom:10px;
     }
-  }
+}
+
+@media screen and (min-width: 769px) {
+    .smartphone-menu {
+      display: none;
+    }
+}
