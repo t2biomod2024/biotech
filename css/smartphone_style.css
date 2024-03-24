@@ -3,7 +3,7 @@
         display: none;
     }
 
-    /* ハンバーガー */
+    /* ハンバーガーメニュー */
     .hamburger-menu {
         width: 50px;
         height: 50px;
@@ -15,7 +15,7 @@
         cursor: pointer;
     }
 
-    .hamburger-menu__bar {
+    .hamburger-menu_bar {
         display: inline-block;
         width: 44%;
         height: 2px;
@@ -26,35 +26,35 @@
         transition: .5s;
     }
 
-    .hamburger-menu__bar:first-child {
+    .hamburger-menu_bar:first-child {
         top: 16px;
     }
     
-    .hamburger-menu__bar:nth-child(2) {
+    .hamburger-menu_bar:nth-child(2) {
         top: 24px;
     }
 
-    .hamburger-menu__bar:last-child {
+    .hamburger-menu_bar:last-child {
         top: 32px;
     }
 
-    .hamburger-menu--open .hamburger-menu__bar {
+    .hamburger-menu--open .hamburger-menu_bar {
         top: 50%;
     }
 
-    .hamburger-menu--open .hamburger-menu__bar:first-child {
+    .hamburger-menu--open .hamburger-menu_bar:first-child {
         transform: translateX(-50%) translateY(-50%) rotate(45deg);
     }
 
-    .hamburger-menu--open .hamburger-menu__bar:last-child {
+    .hamburger-menu--open .hamburger-menu_bar:last-child {
         transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     }
 
-    .hamburger-menu--open .hamburger-menu__bar:nth-child(2) {
+    .hamburger-menu--open .hamburger-menu_bar:nth-child(2) {
         display: none;
     }
 
-    .navigation {
+    .menu-navigation {
         display: none;
         background: #242424;
         position: absolute;
@@ -63,22 +63,22 @@
         z-index: 9999;
     }
 
-    .navigation__list {
+    .menu-navigation_list {
         text-align: center;
         list-style: none;
         padding: 0;
         margin: 0;
     }
 
-    .navigation__list-item {
+    .menu-navigation_list-item {
         border-bottom: solid 1px #474747;
     }
 
-    .navigation__list-item:first-child {
+    .menu-navigation_list-item:first-child {
         border-top: solid 1px #474747;
     }
 
-    .navigation__link {
+    .menu-navigation_link {
         color: #fff;
         font-weight: 700;
         text-decoration: none;
@@ -86,9 +86,9 @@
         padding: 24px 0;
         transition: .5s;
     }
-    
+
     @media (hover: hover) and (pointer: fine) {
-        .navigation__link:hover {
+        .menu-navigation_link:hover {
           background: #333;
         }
     }

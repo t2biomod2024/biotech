@@ -68,8 +68,8 @@ $(window).on('load', function () {
 
 //hum
 $(function () {
-    $('#js-hamburger-menu, .navigation__link').on('click', function () {
-      $('.navigation').slideToggle(500)
+    $('#js-hamburger-menu, .menu-navigation_link').on('click', function () {
+      $('.menu-navigation').slideToggle(500)
       $('.hamburger-menu').toggleClass('hamburger-menu--open')
     });
   });
