@@ -8,97 +8,40 @@
 /* スマホ＿基本 */
     main {
         padding: 0 20px 0 20px;
-      }
+    }
 
 /* ハンバーガーメニュー */
-    .hamburger-menu {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        border: none;
-        background: transparent;
-        appearance: none;
-        padding: 0;
-        cursor: pointer;
+    .menu-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        height: 60px;
+        width: 60px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background-color: #3584bb;
     }
 
-    .hamburger-menu_bar {
-        display: inline-block;
-        width: 44%;
-        height: 2px;
-        background: #242424;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        transition: .5s;
-    }
-
-    .hamburger-menu_bar:first-child {
-        top: 16px;
-    }
-    
-    .hamburger-menu_bar:nth-child(2) {
-        top: 24px;
-    }
-
-    .hamburger-menu_bar:last-child {
-        top: 32px;
-    }
-
-    .hamburger-menu--open .hamburger-menu_bar {
-        top: 50%;
-    }
-
-    .hamburger-menu--open .hamburger-menu_bar:first-child {
-        transform: translateX(-50%) translateY(-50%) rotate(45deg);
-    }
-
-    .hamburger-menu--open .hamburger-menu_bar:last-child {
-        transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-    }
-
-    .hamburger-menu--open .hamburger-menu_bar:nth-child(2) {
-        display: none;
-    }
-
-    .menu-navigation {
-        display: none;
-        background: #242424;
-        position: absolute;
-        top: 50px;
-        width: 100%;
-        z-index: 9999;
-    }
-
-    .menu-navigation_list {
-        text-align: center;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu-navigation_list-item {
-        border-bottom: solid 1px #474747;
-    }
-
-    .menu-navigation_list-item:first-child {
-        border-top: solid 1px #474747;
-    }
-
-    .menu-navigation_link {
-        color: #fff;
-        font-weight: 700;
-        text-decoration: none;
+    .menu-btn span,.menu-btn span:before,.menu-btn span:after {
+        content: '';
         display: block;
-        padding: 24px 0;
-        transition: .5s;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        position: absolute;
     }
 
-    @media (hover: hover) and (pointer: fine) {
-        .menu-navigation_link:hover {
-          background: #333;
-        }
+    .menu-btn span:before {
+        bottom: 8px;
     }
+
+    .menu-btn span:after {
+        top: 8px;
+    }
+
 
 /* News slider */
     .news_item {

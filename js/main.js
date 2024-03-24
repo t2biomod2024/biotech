@@ -65,16 +65,3 @@ $(window).scroll(function () {
 $(window).on('load', function () {
 	FixedAnime();
 });
-
-//hum
-$(function () {
-    $('#js-hamburger-menu').on('click', function () {
-        $('.menu-navigation').slideToggle(500);
-        $('.hamburger-menu').toggleClass('hamburger-menu--open');
-    });
-
-    $('.menu-navigation_link').on('click', function () {
-        $('.menu-navigation').slideToggle(500);
-        $('.hamburger-menu').toggleClass('hamburger-menu--open');
-    });
-});
