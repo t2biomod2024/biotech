@@ -26,6 +26,10 @@
         margin-left: 10px;
     }
 
+    footer {
+        padding: 20px 0 20px 0;
+      }
+
 /* マップ */
     #MapContainer {
         width: 100%;
