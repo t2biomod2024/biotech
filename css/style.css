@@ -202,8 +202,8 @@ iframe {
   justify-content: flex-start;
   border-left: 2px solid #333;
   padding-left: 20px;
-  height: 200px;
-  background: #ff0000; 
+  height: 300px;
+  background: #0000ff; 
 }
 
 .twitter {
