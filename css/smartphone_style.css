@@ -22,6 +22,7 @@
         padding: 0 20px 0 20px;
     }
 
+/* マップ */
     #Maparea {
         padding: 0 20px 0 20px;
     }
@@ -128,7 +129,7 @@
         left: 0;
     }
 
-/* News slider */
+/* news-slider */
     .news_item {
         width: 100%;
     }  
