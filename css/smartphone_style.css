@@ -1,4 +1,8 @@
 @media screen and (max-width:768px) {
+    .header_right {
+        display: none;
+      }
+
     .news_item {
         width: 100%;
       }  
