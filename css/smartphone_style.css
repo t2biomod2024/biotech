@@ -9,6 +9,10 @@
         display: none;
     }
 
+    .pc-contact {
+        display: none;
+    }
+
 /* スマホ＿基本 */
     main {
         padding: 0 20px 0 20px;
@@ -139,7 +143,12 @@
     .smartphone-menu {
       display: none;
     }
+
     .smartphone-bbn {
+        display: none;
+    }
+
+    .smartphone-contact {
         display: none;
     }
 }
