@@ -23,13 +23,8 @@
     }
 
 /* マップ */
-    #Maparea {
-        display: column;
-        padding: 0 20px 0 20px;
-    }
-
     #MapContainer {
-        width: 300px;
+        width: 100%;
         height: 200px;
     }
 
