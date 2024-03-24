@@ -22,6 +22,10 @@
         padding: 0 20px 0 20px;
     }
 
+    .header_left {
+        margin-left: 10px;
+    }
+
 /* マップ */
     #MapContainer {
         width: 100%;
