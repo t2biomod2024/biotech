@@ -129,6 +129,10 @@ iframe {
   width: 80%;
 }
 
+.topic-card {
+  height: 400;
+}
+
 .topic-slider-img {
   margin: 0 10px;
 }
