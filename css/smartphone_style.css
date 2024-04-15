@@ -91,7 +91,7 @@
         height: 100%;
         position: fixed;
         top: 0;
-        left: 80%;
+        left: 100%;
         z-index: 80;
         background-color: #777;
         transition: all 0.5s;
