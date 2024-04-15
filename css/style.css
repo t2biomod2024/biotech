@@ -138,8 +138,9 @@ iframe {
 }
 
 .topic-slider-img img {
-  height: auto;
+  height: 400;
   width: 100%;
+  object-fit: cover;
 }
 
 /* NEWS */
