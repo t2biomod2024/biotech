@@ -130,7 +130,7 @@
     }
 
     #menu-btn-check:checked ~ .menu-content {
-        left: 0;
+        left: 20%;
     }
 
 /* news-slider */
