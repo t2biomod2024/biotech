@@ -28,7 +28,11 @@
 
     footer {
         padding: 20px 0 20px 0;
-      }
+    }
+
+    #photo {
+        padding: 6px 0;
+    }
 
 /* マップ */
     #MapContainer {
@@ -47,7 +51,7 @@
         justify-content: center;
         align-items: center;
         z-index: 90;
-        background-color: #000;
+        background-color: #000000;
     }
 
     .menu-btn span,.menu-btn span:before,.menu-btn span:after {
@@ -108,12 +112,13 @@
 
     .menu-content ul li a {
         display: block;
-        width: 100%;
-        font-size: 15px;
+        width: 80%;
+        font-size: 20px;
         box-sizing: border-box;
         color:#ffffff;
         text-decoration: none;
-        padding: 9px 15px 10px 0;
+        padding: 10px 15px 9px 0;
+        margin: 10px 0;
         position: relative;
     }
 
@@ -130,7 +135,7 @@
     }
 
     #menu-btn-check:checked ~ .menu-content {
-        left: 0;
+        left: 20%;
     }
 
 /* news-slider */
