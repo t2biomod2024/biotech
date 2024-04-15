@@ -28,7 +28,11 @@
 
     footer {
         padding: 20px 0 20px 0;
-      }
+    }
+
+    #photo {
+        padding: 6px 25px 6px 25px;
+    }
 
 /* マップ */
     #MapContainer {
