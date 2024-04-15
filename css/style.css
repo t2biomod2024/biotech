@@ -54,7 +54,8 @@ p {
 
 .pages_photo {
   width: 50%;
-  margin: 20px auto;
+  height: auto;
+  margin: 20px;
 }
 
 
