@@ -109,11 +109,12 @@
     .menu-content ul li a {
         display: block;
         width: 80%;
-        font-size: 30px;
+        font-size: 20px;
         box-sizing: border-box;
         color:#ffffff;
         text-decoration: none;
-        padding: 9px 15px 10px 0;
+        padding: 10px 15px 9px 0;
+        margin: 10px 0;
         position: relative;
     }
 
