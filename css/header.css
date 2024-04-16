@@ -51,7 +51,7 @@ ul.ddmenu li {
 ul.ddmenu a {
   background-color: #fff;
   color: #333;
-  line-height: 40px;
+  line-height: 50px;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -80,7 +80,7 @@ ul.ddmenu ul li {
 }
 
 ul.ddmenu ul li a {
-  line-height: 60px;
+  line-height: 50px;
   text-align: center;
   font-weight: bold;
 }
