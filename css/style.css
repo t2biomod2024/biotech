@@ -1,9 +1,11 @@
 /* 基本 */
 body {
-  font-family: "Arial", "メイリオ", sans-serif;
+  font-family: "Noto Sans JP","Arial", "メイリオ", sans-serif;
   background-color: #fff;
   margin-top: 100px;
 }
+
+
 
 main {
   padding: 0 100px 0 100px;
