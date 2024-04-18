@@ -175,6 +175,11 @@ iframe {
 }
 
 /* index.htmlのニュース */
+.news-container {
+  display: flex;
+  justify-content: center;
+}
+
 .news {
   display: flex;
   justify-content: center;
