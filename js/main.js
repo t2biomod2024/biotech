@@ -11,9 +11,9 @@ window.addEventListener('load', function () {
   document.querySelector('.loading-overlay').style.display = 'none';
 });
 
-// topic-slider
+// topic2-slider
 $(function () {
-    $(".topic-slider").slick({
+    $(".topic2-slider").slick({
       autoplay: true,
       adaptiveHeight: true,
       centerMode: true,
@@ -22,9 +22,9 @@ $(function () {
     });
 });
 
-// topic2-slider
+// topic-slider
 $(function () {
-    $(".topic2-slider").slick({
+    $(".topic-slider").slick({
       autoplay: true,
       adaptiveHeight: true,
       centerMode: true,
