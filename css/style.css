@@ -157,6 +157,9 @@ iframe {
 }
 
 /* NEWS */
+
+
+/* index.htmlのニュース */
 .news {
   background: #fff;
   margin: 0 auto;
@@ -197,25 +200,6 @@ iframe {
   font-size: 14px;
   color: #666;
   text-decoration: none;
-}
-
-/* index.htmlのニュース */
-.news-slider-cover {
-  text-align: center;
-}
-
-.news-slider a {
-  display: block;
-  background: #fff;
-  padding: 20px 20px 55px 20px;
-}
-
-.news-slider span {
-  display: inline-block;
-  font-size: 0.8rem;
-  margin-right: 10px;
-  color: #777;
-  background: #fff;
 }
 
 /*button*/
