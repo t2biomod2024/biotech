@@ -157,6 +157,10 @@ iframe {
 }
 
 /* NEWS */
+.news {
+  text-align: center;
+}
+
 .news-article-link {
   display: block;
   text-decoration: none;
