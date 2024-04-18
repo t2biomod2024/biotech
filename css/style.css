@@ -157,7 +157,25 @@ iframe {
 }
 
 /* NEWS */
+/* ニュース記事の枠 */
+.news-article {
+  border: 1px solid #ccc; /* 枠線のスタイルと色 */
+  padding: 10px; /* 内側の余白 */
+  margin-bottom: 10px; /* 下部のマージン */
+}
 
+/* ニュース記事のタイトルのスタイル */
+.news-article a {
+  text-decoration: none; /* アンダーラインをなくす */
+  color: #333; /* リンクのテキスト色 */
+  font-weight: bold; /* 太字 */
+}
+
+/* ニュース記事の日付のスタイル */
+.news-article span {
+  font-size: 14px; /* フォントサイズ */
+  color: #666; /* 日付のテキスト色 */
+}
 
 /* index.htmlのニュース */
 .news-slider-cover {
