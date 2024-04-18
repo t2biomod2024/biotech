@@ -14,7 +14,6 @@ window.addEventListener('load', function () {
 // topic2-slider
 $(function () {
     $(".topic2-slider").slick({
-      autoplay: true,
       adaptiveHeight: true,
       centerMode: true,
       centerPadding: "15%",
