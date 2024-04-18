@@ -188,16 +188,13 @@ iframe {
 }
 
 .news-article {
+  float: right;
+  margin-right: 10px;
   border: 1px solid #ccc;
   background: #fff;
   padding: 10px;
   margin-bottom: 10px;
   overflow: hidden;
-}
-
-.news-article {
-  float: right;
-  margin-right: 10px;
 }
 
 .news-image {
