@@ -176,9 +176,8 @@ iframe {
 
 /* index.htmlのニュース */
 .news {
-  background: #fff;
-  margin: 0 auto;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .news-article-link {
@@ -191,7 +190,6 @@ iframe {
   float: right;
   margin-right: 10px;
   border: 1px solid #ccc;
-  background: #fff;
   padding: 10px;
   margin-bottom: 10px;
   overflow: hidden;
