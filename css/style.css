@@ -160,6 +160,7 @@ iframe {
 .news {
   background: #fff;
   margin: 0 auto;
+  justify-items: center;
 }
 
 .news-article-link {
@@ -177,13 +178,13 @@ iframe {
 }
 
 .news-article {
-  float: left;
+  float: right;
   margin-right: 10px;
 }
 
 .news-image {
-  float: right;
-  width: 50px;
+  float: left;
+  width: auto;
   height: 70px;
   margin: 10px 0;
 }
