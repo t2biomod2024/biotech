@@ -17,7 +17,7 @@ $(function () {
       adaptiveHeight: true,
       centerMode: true,
       centerPadding: "15%",
-      dots: false,
+      dots: true,
       arrows: false,
     });
 });
@@ -29,7 +29,7 @@ $(function () {
       adaptiveHeight: true,
       centerMode: true,
       centerPadding: "15%",
-      dots: true,
+      dots: false,
     });
 });
 
