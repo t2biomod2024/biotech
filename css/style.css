@@ -160,7 +160,7 @@ iframe {
 .news {
   background: #0000ff;
   margin: 0 auto;
-  max-width: 800px;
+  width: 90%;
 }
 
 .news-article-link {
