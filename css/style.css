@@ -157,7 +157,22 @@ iframe {
 }
 
 /* NEWS */
+.news_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
 
+.news_item {
+  width: calc((100% - 100px) / 3);
+  background-color: #fff;
+}
+
+.news_item img {
+  width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
 
 /* index.htmlのニュース */
 .news {
