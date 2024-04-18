@@ -200,7 +200,7 @@ iframe {
 
 /* index.htmlのニュース */
 .news-slider-cover {
-  margin: 0;
+  text-align: center;
 }
 
 .news-slider a {
