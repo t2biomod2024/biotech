@@ -158,6 +158,7 @@ iframe {
 
 /* NEWS */
 .news {
+  background: #0000ff;
   margin: 0 auto;
   max-width: 800px;
 }
@@ -170,6 +171,7 @@ iframe {
 
 .news-article {
   border: 1px solid #ccc;
+  background: #ff0000;
   padding: 10px;
   margin-bottom: 10px;
 }
