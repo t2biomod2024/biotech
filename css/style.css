@@ -189,19 +189,19 @@ iframe {
   display: block;
   text-decoration: none;
   color: inherit;
-  width: 100%;
 }
 
 .news-article {
   float: right;
-  margin-right: 10px;
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;
   overflow: hidden;
+  width: 100%;
 }
 
 .news-image {
+  margin-right: 20px;
   float: left;
   width: auto;
   height: 70px;
