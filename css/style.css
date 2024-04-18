@@ -184,6 +184,7 @@ iframe {
   display: block;
   text-decoration: none;
   color: inherit;
+  width: 100%;
 }
 
 .news-article {
