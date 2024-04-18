@@ -174,7 +174,7 @@ iframe {
   background: #ff0000;
   padding: 10px;
   margin-bottom: 10px;
-  overflow: hidden; /* 子要素の浮動を制御 */
+  overflow: hidden;
 }
 
 .news-article .news-image {
@@ -183,7 +183,7 @@ iframe {
 }
 
 .news-article .news-content {
-  overflow: hidden; /* 子要素の浮動を制御 */
+  overflow: hidden;
 }
 
 .news-article span {
