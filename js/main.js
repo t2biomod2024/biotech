@@ -22,6 +22,17 @@ $(function () {
     });
 });
 
+// topic2-slider
+$(function () {
+    $(".topic2-slider").slick({
+      autoplay: true,
+      adaptiveHeight: true,
+      centerMode: true,
+      centerPadding: "15%",
+      dots: true,
+    });
+});
+
 // news-slider
 var slider;
 var sliderFlag = false;

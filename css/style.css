@@ -156,6 +156,27 @@ iframe {
   object-fit: cover;
 }
 
+/* Topic2 slider */
+.topic2-slider {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 80%;
+}
+
+.topic2-card {
+  height: 400;
+}
+
+.topic2-slider-img {
+  margin: 0 10px;
+}
+
+.topic2-slider-img img {
+  height: 400;
+  width: 100%;
+  object-fit: cover;
+}
+
 /* NEWS */
 .news_wrap {
   display: flex;
