@@ -18,7 +18,8 @@ $(function () {
       adaptiveHeight: true,
       centerMode: true,
       centerPadding: "15%",
-      dots: true,
+      dots: false,
+      arrows: false,
     });
 });
 
