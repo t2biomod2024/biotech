@@ -176,9 +176,15 @@ iframe {
   overflow: hidden;
 }
 
-.news-article .news-image {
+.news-article {
   float: left;
   margin-right: 10px;
+}
+
+.news-image {
+  float: right;
+  width: 50px;
+  height: auto;
 }
 
 .news-article .news-content {
