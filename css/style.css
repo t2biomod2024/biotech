@@ -173,20 +173,23 @@ iframe {
   border-radius: 2%;
 }
 
-/* index.htmlのニュース */
+/* HOMENEWS */
 .homenews{
+  background-color: #ff0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .homenews-article-link {
+  background-color: #0ff;
   display: block;
   text-decoration: none;
   color: inherit;
 }
 
 .homenews-article {
+  background-color: #f0f;
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;
