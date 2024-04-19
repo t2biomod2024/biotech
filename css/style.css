@@ -225,19 +225,10 @@ iframe {
   flex: 1;
 }
 
-.more-button {
-  border: none;
-  color: inherit;
-  padding: 10px 20px;
-  text-align: center;
+.homenews-article span {
+  font-size: 14px;
+  color: #666;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-.button-container {
-  text-align: center;
 }
 
 /*button*/
