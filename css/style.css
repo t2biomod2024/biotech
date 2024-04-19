@@ -201,10 +201,6 @@ iframe {
   margin: 10px 0;
 }
 
-.news-article .news-content {
-  overflow: hidden;
-}
-
 .news-article span {
   font-size: 14px;
   color: #666;
