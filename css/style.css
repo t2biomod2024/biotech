@@ -182,10 +182,10 @@ iframe {
 }
 
 .homenews-article-link {
-  background-color: #0ff;
   display: block;
   text-decoration: none;
   color: inherit;
+  width: 100%;
 }
 
 .homenews-article {
