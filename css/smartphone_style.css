@@ -40,6 +40,11 @@
         height: 200px;
     }
 
+/* ニュース */
+    .news_item {
+        width: 100%;
+    }
+
 /* ハンバーガーメニュー */
     .menu-btn {
         position: fixed;
