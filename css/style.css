@@ -150,6 +150,11 @@ iframe {
   margin: 0 10px;
 }
 
+.topic-slider-img img {
+  height: auto;
+  width: 100%;
+}
+
 /* NEWS */
 .news_wrap {
   display: flex;
