@@ -210,16 +210,17 @@ iframe {
   margin-bottom: 10px;
   overflow: hidden;
   display: flex;
+  border-radius: 1%;
 }
 
 .homenews-image {
-  margin-right: 20px;
-  width: 70px;
+  width: 100px;
   height: auto;
   margin: 10px 0;
 }
 
 .homenews-content {
+  margin-left: 40px;
   overflow: hidden;
   flex: 1;
 }
