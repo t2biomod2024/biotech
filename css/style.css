@@ -178,8 +178,27 @@ iframe {
 }
 
 .homenews ul {
+  background-color: #f0f;
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.homenews li {
+  background-color: #f00;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.homenews a {
+  background-color: #ff0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .homenews-article-link {
