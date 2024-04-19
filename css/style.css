@@ -178,7 +178,6 @@ iframe {
 }
 
 .homenews ul {
-  background-color: #f0f;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -186,7 +185,6 @@ iframe {
 }
 
 .homenews li {
-  background-color: #f00;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -194,7 +192,6 @@ iframe {
 }
 
 .homenews a {
-  background-color: #ff0;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -202,7 +199,6 @@ iframe {
 }
 
 .homenews-article-link {
-  background-color: #0ff;
   display: block;
   text-decoration: none;
   color: inherit;
@@ -213,6 +209,7 @@ iframe {
   padding: 10px;
   margin-bottom: 10px;
   overflow: hidden;
+  display: flex;
 }
 
 .homenews-image {
@@ -224,10 +221,10 @@ iframe {
 
 .homenews-content {
   overflow: hidden;
+  flex: 1;
 }
 
 .more-button {
-  background-color: #0ff;
   border: none;
   color: inherit;
   padding: 10px 20px;
@@ -250,7 +247,7 @@ iframe {
 }
 
 .more-button {
-  background-color: #000;
+  background-color: #111;
   border: none;
   color: #fff;
   padding: 15px 32px;
