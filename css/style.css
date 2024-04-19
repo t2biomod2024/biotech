@@ -169,16 +169,19 @@ iframe {
 }
 
 /* index.htmlのニュース */
+.news-cover {
+  margin: 0;
+}
+
 .news {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.news-article-link {
+.news-article a {
   display: block;
   text-decoration: none;
-  color: inherit;
 }
 
 .news-article {
