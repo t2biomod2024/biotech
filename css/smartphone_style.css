@@ -45,6 +45,18 @@
         width: 100%;
     }
 
+/* HOMENEWS */
+    .homenews-image {
+        width: 70px;
+        height: auto;
+        margin: 10px;
+    }
+  
+    .homenews-content {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
 /* ハンバーガーメニュー */
     .menu-btn {
         position: fixed;
