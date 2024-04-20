@@ -18,34 +18,8 @@ $(function () {
       adaptiveHeight: true,
       centerMode: true,
       centerPadding: "15%",
-      dots: true,
+      dots: false,
     });
-});
-
-// news-slider
-var slider;
-var sliderFlag = false;
-var breakpoint = 768;
-  
-function sliderSet() {
-        var windowWidth = window.innerWidth;
-        if (windowWidth >= breakpoint && !sliderFlag) {
-            slider = $('.news-slider').bxSlider({
-            touchEnabled:false,
-			mode: 'vertical',
-			controls: false,
-			auto: 'true',
-			pager: false
-		});
-            sliderFlag = true;
-        } else if (windowWidth < breakpoint && sliderFlag) {
-            slider.destroySlider();
-            sliderFlag = false;
-        }
-    }
-
-$(window).on('load resize', function() {
-    sliderSet();
 });
 
 //Fixed

@@ -40,6 +40,26 @@
         height: 200px;
     }
 
+/* ニュース */
+    .news_item {
+        width: 100%;
+    }
+
+/* HOMENEWS */
+    .homenews-image {
+        width: 50px;
+        height: auto;
+        margin: 10px;
+    }
+  
+    .homenews-content {
+        margin-left: 0;
+    }
+
+    .homenews-article span {
+        font-size: 10px;
+      }
+
 /* ハンバーガーメニュー */
     .menu-btn {
         position: fixed;
@@ -136,28 +156,6 @@
 
     #menu-btn-check:checked ~ .menu-content {
         left: 20%;
-    }
-
-/* news-slider */
-    .news_item {
-        width: 100%;
-    }  
-
-    .news-slider {
-        padding:20px;
-        background:#fff;
-    }
-  
-    .news-slider li {
-        border-bottom:1px dashed #ccc;
-    }
-  
-    .news-slider li:last-child {
-        border-bottom:none;
-    }
-    .news-slider span {
-        display:block;
-    padding-bottom:10px;
     }
 }
 

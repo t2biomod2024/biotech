@@ -1,6 +1,6 @@
 /* 基本 */
 body {
-  font-family: "Arial", "メイリオ", sans-serif;
+  font-family: "Noto Sans JP","Arial", "メイリオ", sans-serif;
   background-color: #fff;
   margin-top: 100px;
 }
@@ -20,13 +20,10 @@ h1 {
 
 h2 {
   color: #333;
-  border-top-style: solid;
-  border-top-width: 2px;
-  padding-top: 20px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  padding-bottom: 20px;
-  margin: 50px 0 50px 0;
+  border-left-style: solid;
+  border-left-width: 5px;
+  padding: 20px 0 20px 15px;
+  margin: 40px 0 40px 0;
 }
 
 h3 {
@@ -151,9 +148,8 @@ iframe {
 }
 
 .topic-slider-img img {
-  height: 400;
+  height: auto;
   width: 100%;
-  object-fit: cover;
 }
 
 /* NEWS */
@@ -174,23 +170,65 @@ iframe {
   border-radius: 2%;
 }
 
-/* index.htmlのニュース */
-.news-slider-cover {
+/* HOMENEWS */
+.homenews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homenews ul {
+  list-style-type: none;
+  padding: 0;
   margin: 0;
+  width: 100%;
 }
 
-.news-slider a {
+.homenews li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.homenews a {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-radius: 1%;
+}
+
+.homenews-article-link {
   display: block;
-  background: #fff;
-  padding: 20px 20px 55px 20px;
+  text-decoration: none;
+  color: inherit;
 }
 
-.news-slider span {
-  display: inline-block;
-  font-size: 0.8rem;
-  margin-right: 10px;
-  color: #777;
-  background: #fff;
+.homenews-article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.homenews-image {
+  width:70px;
+  height: auto;
+  margin: 10px;
+}
+
+.homenews-content {
+  margin-left: 30px;
+  overflow: hidden;
+  flex: 1;
+}
+
+.homenews-article span {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
 }
 
 /*button*/
@@ -201,7 +239,7 @@ iframe {
 }
 
 .more-button {
-  background-color: #000;
+  background-color: #111;
   border: none;
   color: #fff;
   padding: 15px 32px;
