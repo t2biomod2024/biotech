@@ -47,15 +47,18 @@
 
 /* HOMENEWS */
     .homenews-image {
-        width: 70px;
+        width: 50px;
         height: auto;
         margin: 10px;
     }
   
     .homenews-content {
         margin-left: 0;
-        font-size: 20px;
     }
+
+    .homenews-article span {
+        font-size: 10px;
+      }
 
 /* ハンバーガーメニュー */
     .menu-btn {
