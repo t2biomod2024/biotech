@@ -129,6 +129,56 @@
                     </div>
                 </ul>
             </div>
+        
+        <!-- Gallery -->
+        <div class="photo-gallery">
+  <div class="photo-item">
+    <img src="images/photo1.jpg" alt="写真の説明1">
+    <p>キャプション1</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/photo2.jpg" alt="写真の説明2">
+    <p>キャプション2</p>
+  </div>
+  <div class="photo-item">
+    <img src="images/photo3.jpg" alt="写真の説明3">
+    <p>キャプション3</p>
+  </div>
+  </div>
+
+<style>
+  /* グリッドレイアウトの設定 */
+  .photo-gallery {
+    display: grid;
+    /* カラムの自動調整：最小幅250px、それ以上は等分 */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px; /* 画像間の隙間 */
+    padding: 20px 0;
+  }
+
+  /* 個々の写真の枠設定 */
+  .photo-item {
+    border: 1px solid #ddd; /* 薄い枠線（お好みで） */
+    background-color: #fff;
+    padding: 5px;
+    text-align: center; /* キャプションを中央揃え */
+  }
+
+  /* 画像そのものの設定 */
+  .photo-item img {
+    width: 100%;
+    height: 200px; /* 高さを固定して不揃いを防ぐ */
+    object-fit: cover; /* 比率を維持したままトリミング（重要） */
+    display: block;
+  }
+
+  /* キャプションの設定 */
+  .photo-item p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 8px 0 4px;
+  }
+</style>
 
        
         <!-- Contact -->
